@@ -1,38 +1,470 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+	<meta name="author" content="danuandreanid">
+	<meta name="description" content="web profile">
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-	<link rel="stylesheet" href="css/style.css">
-	<title>Document</title>
-</head>
-<body>
-
-	<nav class="navbar navbar-expand-lg navbar-light bg-light">
-		<a class="navbar-brand" href="#">Navbar</a>
-		<button class="navbar-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
-		  <span class="navbar-toggler-icon"></span>
-		</button>
-	 
-		<div class="collapse navbar-collapse" id="navigation">
-		  <ul class="navbar-nav ml-auto">
-			 <li class="nav-item active">
-				<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-			 </li>
-			 <li class="nav-item">
-				<a class="nav-link" href="#">Link</a>
-			 </li>
-			 <li class="nav-item">
-				<a class="nav-link disabled" href="#">Disabled</a>
-			 </li>
-		  </ul>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+	 <!-- topup -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 	
+	<link rel="stylesheet" href="vendor/dark-mode.css">
+
+	<link rel="stylesheet" href="css/style.css">	
+	<link rel="shortcut icon"  href="image/cod.png">
+	<title>Me | Profiles</title>
+</head>
+<body id="body">
+
+	<div class="container" id="sidebar" >
+		<nav class="navbar navbar-expand-lg navbar-dark fixed-top " id="mynav">
+			<div class="container">
+			<div>
+				<img src="image/boy.png" width="40px" style="margin-top: -5px;">
+				<img src="image/bracket.png" width="30px" id="maximize">
+				<img src="image/moon.png" width="30px" id="darkSwitch">
+				<!-- <div class="custom-control custom-switch">
+					<input type="checkbox" class="custom-control-input" id="darkSwitch">
+					<label class="custom-control-label" for="darkSwitch">Dark Mode</label>
+				 </div> -->
+			</div>
+			
+			<button class="navbar-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation" id="sidebarCollapse">
+				<span></span>
+				<span></span>
+				<span></span>
+			</button>
+		
+			<div class=" navbar-collapse" id="navigation">
+			<ul class="navbar-nav ml-auto">
+				<li class="nav-items">
+					<a class="nav-link" href="#about-me">About </a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#progress-me">Skills</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link " href="#project-me">Project </a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link " href="#journey-me">Journey </a>
+				</li>
+			</ul>
+		
+			</div>
 		</div>
-	</nav>
+		</nav>
+	</div>
+	<a id="button"></a>
+	<header>
+		<div class="jumbotron jumbotron-fluid text-center  ">
+			<img src="image/a.jpg" class >
+			<div class="container">
+			  <h1 class="display-5">Danu Andrean</h1>
+			  <p class="lead">Programmer | Developer</p>
+			</div>
+		 </div>
+	</header>
+
+	<div id="about-me"></div>
+	<about>
+		<div class="container " id="about">
+			<div class="about section">
+				<div class="row">
+					<div class="col-md-6 information-about">
+						<h2>about</h2>
+						<div class="container-about">
+							<p>hi! I am a software and hardware engineering
+								I'm majoring in electrical engineering, I'm interested in artificial intelligence and the internet of things, I'm a robot developer and a good website developer	</p>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<h2 >information</h2>
+						<div class="container-basic">
+							<div class="row">
+								<div class="col-sm-4 label"> name</div>
+								<div class="col-sm-8"> danu andrean</div>
+							</div>
+							<div class="row mt-2">
+								<div class="col-sm-4 label ">good ability</div>
+								<div class="col-sm-8"> software engineering</div>
+							</div>
+							<div class="row mt-2">
+								<div class="col-sm-4 label "> email</div>
+								<div class="col-sm-8"> danuandreanid@gmail.com</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</about>
+	<div id="progress-me"></div>
+	<progres>
+		<div class="container" id="progress">
+			<h2 class="text-center mt-5">profesional skills</h2>
+			<div class="skill section">
+				<div class="row">
+					<div class="col-md-6">
+						<div class="progress-container progress-primary " id="progress-1"><span class="progress-badge">php</span>
+							<div class="progress" style="height: 6px">
+								<div class="progress-bar" role="progressbar"  aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div><span class="progress-value" >85%</span>
+							</div>
+						</div>
+						<div class="progress-container progress-primary " id="progress-2"><span class="progress-badge">java script</span>
+							<div class="progress" style="height: 6px">
+								<div class="progress-bar" role="progressbar"  aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div><span class="progress-value" >80%</span>
+							</div>
+						</div>
+						<div class="progress-container progress-primary" id="progress-3"><span class="progress-badge">json</span>
+							<div class="progress" style="height: 6px">
+								<div class="progress-bar" role="progressbar"  aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div><span class="progress-value" >85%</span>
+							</div>
+						</div>
+						<div class="progress-container progress-primary" id="progress-4"><span class="progress-badge">mysql</span>
+							<div class="progress" style="height: 6px">
+								<div class="progress-bar" role="progressbar"  aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div><span class="progress-value" >90%</span>
+							</div>
+						</div>
+						<div class="progress-container progress-primary" id="progress-5"><span class="progress-badge">sass</span>
+							<div class="progress" style="height: 6px">
+								<div class="progress-bar" role="progressbar"  aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div><span class="progress-value" >80%</span>
+							</div>
+						</div>
+						<div class="progress-container progress-primary" id="progress-6"><span class="progress-badge">laravel</span>
+							<div class="progress" style="height: 6px">
+								<div class="progress-bar" role="progressbar"  aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div><span class="progress-value" >87%</span>
+							</div>
+						</div>
+						<div class="progress-container progress-primary" id="progress-7"><span class="progress-badge">django</span>
+							<div class="progress" style="height: 6px">
+								<div class="progress-bar" role="progressbar"  aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div><span class="progress-value" >75%</span>
+							</div>
+						</div>
+						<div class="progress-container progress-primary" id="progress-8"><span class="progress-badge">vue js</span>
+							<div class="progress" style="height: 6px">
+								<div class="progress-bar" role="progressbar"  aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div><span class="progress-value" >70%</span>
+							</div>
+						</div>
+						<div class="progress-container progress-primary" id="progress-9"><span class="progress-badge">html & css</span>
+							<div class="progress" style="height: 6px">
+								<div class="progress-bar" role="progressbar"  aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div><span class="progress-value" >85%</span>
+							</div>
+						</div>
+						<div class="progress-container progress-primary" id="progress-10"><span class="progress-badge">python</span>
+							<div class="progress" style="height: 6px">
+								<div class="progress-bar" role="progressbar"  aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div><span class="progress-value" >87%</span>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="progress-container progress-primary" id="progress-11"><span class="progress-badge">c</span>
+							<div class="progress" style="height: 6px">
+								<div class="progress-bar" role="progressbar"  aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div><span class="progress-value" >87%</span>
+							</div>
+						</div>
+						<div class="progress-container progress-primary" id="progress-12"><span class="progress-badge">c++</span>
+							<div class="progress" style="height: 6px">
+								<div class="progress-bar" role="progressbar"  aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div><span class="progress-value" >90%</span>
+							</div>
+						</div>
+						<div class="progress-container progress-primary" id="progress-13"><span class="progress-badge">c#</span>
+							<div class="progress" style="height: 6px">
+								<div class="progress-bar" role="progressbar"  aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div><span class="progress-value" >75%</span>
+							</div>
+						</div>
+						<div class="progress-container progress-primary" id="progress-14"><span class="progress-badge">basic</span>
+							<div class="progress" style="height: 6px">
+								<div class="progress-bar" role="progressbar"  aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div><span class="progress-value" >80%</span>
+							</div>
+						</div>
+						<div class="progress-container progress-primary" id="progress-15"><span class="progress-badge">darwin op</span>
+							<div class="progress" style="height: 6px">
+								<div class="progress-bar" role="progressbar"  aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div><span class="progress-value" >80%</span>
+							</div>
+						</div>
+						<div class="progress-container progress-primary" id="progress-16"><span class="progress-badge">microcontroller</span>
+							<div class="progress" style="height: 6px">
+								<div class="progress-bar" role="progressbar"  aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div><span class="progress-value" >85%</span>
+							</div>
+						</div>
+						<div class="progress-container progress-primary" id="progress-17"><span class="progress-badge"> matlab</span>
+							<div class="progress" style="height: 6px">
+								<div class="progress-bar" role="progressbar"  aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div><span class="progress-value" >80%</span>
+							</div>
+						</div>
+						<div class="progress-container progress-primary" id="progress-18"><span class="progress-badge"> ros (robotic operating system)</span>
+							<div class="progress" style="height: 6px">
+								<div class="progress-bar" role="progressbar"  aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div><span class="progress-value" >70%</span>
+							</div>
+						</div>
+						<div class="progress-container progress-primary" id="progress-19"><span class="progress-badge">ladder diagram</span>
+							<div class="progress" style="height: 6px">
+								<div class="progress-bar" role="progressbar"  aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div><span class="progress-value" >90%</span>
+							</div>
+						</div>
+						<div class="progress-container progress-primary" id="progress-20"><span class="progress-badge">function blog diagram</span>
+							<div class="progress" style="height: 6px">
+								<div class="progress-bar" role="progressbar"  aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div><span class="progress-value" >87%</span>
+							</div>
+						</div>
+						<div class="progress-container progress-primary" id="progress-21"><span class="progress-badge">structure text</span>
+							<div class="progress" style="height: 6px">
+								<div class="progress-bar" role="progressbar"  aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div><span class="progress-value" >80%</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</progres>
+
+	<div id="project-me"></div>
+	<project>
+		<div class="container" id="project">
+			<h2 class="text-center mt-5">project</h2>
+			<div class="card">
+				<div class="row">
+					<div class="col-md-3 ">
+						<div class="card-body bg-primary card-up text-white "  id="project-1">
+						<h5 class="card-title">crud php</h5>
+						</div>
+					</div>
+					<div class="col-md-9">
+						<div class="card-body bg-light card-down text-dark "  id="project-2">
+						<h5 class="card-title">php, mysql</h5>
+						<p class="card-text"> basic crud(create read update delete) using php</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="card mt-4">
+				<div class="row">
+					<div class="col-md-3 ">
+						<div class="card-body bg-primary card-up text-white "  id="project-3">
+						<h5 class="card-title">coundown visual .net</h5>
+						</div>
+					</div>
+					<div class="col-md-9">
+						<div class="card-body bg-light card-down text-dark "  id="project-4">
+						<h5 class="card-title">basic .NET , microsoft acces</h5>
+						<p class="card-text"> countdown ADRC(Ahmad Dahlan Robotic Competition) 2018-present, using basic language programming and microsoft acces as database management system(DBMS)</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="card mt-4">
+				<div class="row">
+					<div class="col-md-3 ">
+						<div class="card-body bg-primary card-up text-white "  id="project-5">
+						<h5 class="card-title">iot api</h5>
+						</div>
+					</div>
+					<div class="col-md-9">
+						<div class="card-body bg-light card-down text-dark "  id="project-6">
+						<h5 class="card-title">esp8266-01 modul, hearth rate sensor , api thingspeaks</h5>
+						<p class="card-text">my first project iot, this is monitoring sensor heart rate using api thingspeak </p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="card mt-4">
+				<div class="row">
+					<div class="col-md-3 ">
+						<div class="card-body bg-primary card-up text-white "  id="project-7">
+						<h5 class="card-title">iot api</h5>
+						</div>
+					</div>
+					<div class="col-md-9">
+						<div class="card-body bg-light card-down text-dark "  id="project-8">
+						<h5 class="card-title">esp8288 modul, temperature, pressure, flowrate, api laravel </h5>
+						<p class="card-text">monitoring temperature, pressure and flowrate using esp8266 and laravel api for CV. kendal agro astiri</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="card mt-4">
+				<div class="row">
+					<div class="col-md-3 ">
+						<div class="card-body bg-primary card-up text-white "  id="project-9">
+						<h5 class="card-title">restfull api</h5>
+						</div>
+					</div>
+					<div class="col-md-9">
+						<div class="card-body bg-light card-down text-dark "  id="project-10">
+						<h5 class="card-title">CRUD laravel , mysql</h5>
+						<p class="card-text">create, read, update and delete using api laravel restfull</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="card mt-4">
+				<div class="row">
+					<div class="col-md-3 ">
+						<div class="card-body bg-primary card-up text-white "  id="project-11">
+						<h5 class="card-title">plc programming</h5>
+						</div>
+					</div>
+					<div class="col-md-9">
+						<div class="card-body bg-light card-down text-dark "  id="project-12">
+						<h5 class="card-title">function block diagram , OMRON</h5>
+						<p class="card-text">reasearch and development problem solving in several case programmable logic controller using OMRON CJ2M</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="card mt-4">
+				<div class="row">
+					<div class="col-md-3 ">
+						<div class="card-body bg-primary card-up text-white "  id="project-13">
+						<h5 class="card-title">artificial intelligence</h5>
+						</div>
+					</div>
+					<div class="col-md-9">
+						<div class="card-body bg-light card-down text-dark "  id="project-14">
+						<h5 class="card-title">python, tensorflow, keras, scikit learn</h5>
+						<p class="card-text">deep learning method for hand classification with convolution neural network using tensorflow and python language programming</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</project>
+
+	<div id="journey-me"></div>
+	<timeline>
+		<div class="container">
+			<div class="page-header">
+				<h2 class="text-center timeline-head mt-5">my journey</h2>
+			</div>
+			<ul class="timeline">
+				 <li>
+					<div class="timeline-badge"><img src="image/browsing.png" alt="" width="40px"></div>
+					<div class="timeline-panel">
+					  <div class="timeline-heading">
+							 <h4 class="timeline-title">2017- present</h4>
+							 <h5 class="timeline-title">collage</h5>
+						</div>
+					  <div class="timeline-body">
+						 <p>I started college in 2017. and my major is electrical engineering at ahmad dahlan university.</p>
+					  </div>
+					</div>
+				 </li>
+				 <li class="timeline-inverted">
+					<div class="timeline-badge "><img src="image/code.png" alt="" width="40px"></div>
+					<div class="timeline-panel">
+					  <div class="timeline-heading">
+						 <h4 class="timeline-title">2017</h4>
+						 <h5 class="timeline-title">website basic</h5>
+					  </div>
+					  <div class="timeline-body">
+						 <p>I started to study website development in mid 2017, I actually learned it self-taught by reading blogs and watching YouTube and it was very interesting</p>
+						 <p></p>
+					  </div>
+					</div>
+				 </li>
+				 <li>
+					<div class="timeline-badge "><img src="image/iot.png" alt="" width="40px"></div>
+					<div class="timeline-panel">
+					  <div class="timeline-heading">
+						<h4 class="timeline-title">2018</h4>
+						<h5 class="timeline-title">IOT reseach</h5>
+					  </div>
+					  <div class="timeline-body">
+						 <p>I started iot during the advanced programming course, I started with heart rate project monitoring using esp8266-01</p>
+					  </div>
+					</div>
+				 </li>
+				 <li class="timeline-inverted">
+					<div class="timeline-badge "><img src="image/plc.png" alt="" width="40px"></div>
+					<div class="timeline-panel">
+					  <div class="timeline-heading">
+						<h4 class="timeline-title">2018 - present</h4>
+						<h5 class="timeline-title">PLC team</h5>
+					  </div>
+					  <div class="timeline-body">
+						 <p>I entered the programmable logic controller team on my campus in early 2018. And I already have a lot of experience such as programming languages, electical, mechanical, and some competitions</p>
+					  </div>
+					</div>
+				 </li>
+				 <li>
+					<div class="timeline-badge info"><img src="image/robot.png" alt="" width="40px"></i></div>
+					<div class="timeline-panel">
+					  <div class="timeline-heading">
+						<h4 class="timeline-title">2018 - present</h4>
+						<h5 class="timeline-title">robotic development team</h5>
+					  </div>
+					  <div class="timeline-body">
+						 <p>I joined a robot team that was shaded by the robotic development community starting in 2018. and I learned about embedded systems, robotic operating systems and supporting programming such as c, c++, and python</p>
+						
+					  </div>
+					</div>
+				 </li>
+				 <li class="timeline-inverted">
+					<div class="timeline-badge "><img src="image/ai.png" alt="" width="40px"></div>
+					<div class="timeline-panel">
+					  <div class="timeline-heading">
+						<h4 class="timeline-title">2019-2020</h4>
+						<h5 class="timeline-title">AI research</h5>
+					  </div>
+					  <div class="timeline-body">
+						 <p>I started AI development at the end of 2019 in the Computer Vision course. I learned about artificial neural networks, machine learning and successfully completed a deep learning project to identify hand gestures with convolution neural network using tensorflow</p>
+					  </div>
+					</div>
+				 </li>
+				 <li >
+					<div class="timeline-badge "><img src="image/gamepad.png" alt="" width="40px"></div>
+					<div class="timeline-panel">
+					  <div class="timeline-heading">
+						<h4 class="timeline-title">2019 - present</h4>
+						<h5 class="timeline-title">Freelance</h5>
+					  </div>
+					  <div class="timeline-body">
+						 <p>I started working freelance in early 2019, I helped work on several thesis and industrial projects such as sensor implementation, automation, iot and website development</p>
+					  </div>
+					</div>
+				 </li>
+			</ul>
+	  </div>
+
+	</timeline>
+
+	<section class="footer" id="footer">
+		<div class="container-foot">
+			<div class="col-md-12" >
+            <div class="mb-4 text-center" >
+					
+                <a href="https://github.com/whiterose666" class="fab fa-github social"></a>
+                <a href="mailto:danuandreanid@gmail.com" class="far fa-envelope social"></a>
+                <a href="https://www.instagram.com/danuandreanid/?hl=id" class="fab fa-instagram social"></a>
+                <a href="https://api.whatsapp.com/send?phone=6285717456389" class="fab fa-whatsapp social"></a>
+            <div>
+        </div>
+        	<p class="mt-2 text-center"> &copy;Copyright 2020 | built by. Danu Andrean</p>
+		</div>
+  </section>
  
 	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="js/scrolling.js"></script>
+	<script src="js/fullscreen.js"></script>
+	<script src="js/scrollup.js"></script>
+	<script src="vendor/dark-mode-switch.js"></script>
+	<!-- <script src="vendor/dark-mode-switch.min.js"></script> -->
+	<script>
+	
+		$(document).ready(function(){
+			$("button").click(function(){
+				$('#sidebar').toggleClass('active');
+				$('#sidebarCollapse').toggleClass('open');
+			// 	$(".navbar").animate({right: 'toggle'});
+			// 	$(".navbar").animate({right: '100px'});
+			});
+		});
+	</script>
 </body>
 </html>

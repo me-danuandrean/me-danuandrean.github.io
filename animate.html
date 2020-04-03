@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+</head>
+<style>
+   div.container {
+  overflow:hidden;
+  width:200px;
+  height:200px;
+}
+div.content {
+  position:relative;
+  top:0;
+}
+
+</style>
+<body>
+   <div class="container">
+      <p>
+        <a href="" class="up">Up</a> / 
+        <a href="" class="dn">Down</a>
+      </p>
+      <div class="content">
+        <p>Hello World</p>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+
+
+   <script>
+      $(function(){
+  $(".container a.up").bind("click", function(){
+    var topVal = $(this).parents(".container").find(".content").css("top");
+    $(this).parents(".container").find(".content").css("top", topVal-10);
+  });
+
+  $(".container a.dn").bind("click", function(){
+    var topVal = $(this).parents(".container").find(".content").css("top");
+    $(this).parents(".container").find(".content").css("top", topVal+10);
+  });
+});
+   </script>
+</body>
+</html>

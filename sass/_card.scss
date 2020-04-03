@@ -1,0 +1,240 @@
+.card-up .card-title{
+   text-transform: uppercase;
+}
+.card-down .card-title{
+   text-transform: capitalize;
+   color: gold;
+}
+
+
+
+.card-up{
+   box-shadow: 0px 0px 14px 9px #ddd;
+   border-radius: 2px;
+}
+.card-down{
+   box-shadow: 0px 7px 9px 5px #ddd;
+   border-radius: 2px;
+   
+}
+.card .card-body{
+   height: 12em;
+}
+
+.card-body{
+   padding:0 ;
+}
+.card-up{
+   margin-right: 15em;
+   opacity: 0;
+   overflow: hidden;
+   display: block;
+   // position: absolute;
+   
+}
+.card-down{
+   margin-left: 15em;
+   opacity: 0;
+   overflow: hidden;
+   display: block;
+   // position: absolute;
+   
+}
+.project-1{
+   margin-right: 0;
+   opacity: 1;
+   transition: 0.4s;
+   padding: 2em 2em;
+}
+.project-2{
+   margin-left: 0;
+   opacity: 1;
+   transition: 0.4s;
+   padding: 2em 2em;
+}
+.project-3{
+   margin-right: 0;
+   opacity: 1;
+   transition: 0.4s;
+   padding: 2em 2em;
+}
+.project-4{
+   margin-left: 0;
+   opacity: 1;
+   transition: 0.4s;
+   padding: 2em 2em;
+   overflow: hidden;
+}
+.project-5{
+   margin-right: 0;
+   opacity: 1;
+   transition: 0.4s;
+   padding: 2em 2em;
+}
+.project-6{
+   margin-left: 0;
+   opacity: 1;
+   transition: 0.4s;
+   padding: 2em 2em;
+   overflow: hidden;
+}
+.project-7{
+   margin-right: 0;
+   opacity: 1;
+   transition: 0.4s;
+   padding: 2em 2em;
+}
+.project-8{
+   margin-left: 0;
+   opacity: 1;
+   transition: 0.4s;
+   padding: 2em 2em;
+   overflow: hidden;
+}
+.project-9{
+   margin-right: 0;
+   opacity: 1;
+   transition: 0.4s;
+   padding: 2em 2em;
+}
+.project-10{
+   margin-left: 0;
+   opacity: 1;
+   transition: 0.4s;
+   padding: 2em 2em;
+   overflow: hidden;
+}
+.project-11{
+   margin-right: 0;
+   opacity: 1;
+   transition: 0.4s;
+   padding: 2em 2em;
+}
+.project-12{
+   margin-left: 0;
+   opacity: 1;
+   transition: 0.4s;
+   padding: 2em 2em;
+   overflow: hidden;
+}
+.project-13{
+   margin-right: 0;
+   opacity: 1;
+   transition: 0.4s;
+   padding: 2em 2em;
+}
+.project-14{
+   margin-left: 0;
+   opacity: 1;
+   transition: 0.4s;
+   padding: 2em 2em;
+   overflow: hidden;
+}
+@media(min-width : 750px){
+   .card-up{
+      box-shadow: -2px 0px 9px 5px #ddd;
+      }
+   .card-down{
+      box-shadow: 6px 0px 10px 4px #ddd;
+      }
+
+
+   .project-1{
+      margin-right: -15px;
+      opacity: 1;
+      transition: 1s;
+      padding: 2em 2em;
+   }
+   .project-2{
+      margin-left: -15px;
+      opacity: 1;
+      transition: 1s;
+      padding: 2em 2em;
+   }
+   .project-3{
+      margin-right: -15px;
+      opacity: 1;
+      transition: 1s;
+      padding: 2em 2em;
+   }
+   .project-4{
+      margin-left: -15px;
+      opacity: 1;
+      transition: 1s;
+      padding: 2em 2em;
+   }
+   .project-5{
+      margin-right: -15px;
+      opacity: 1;
+      transition: 1s;
+      padding: 2em 2em;
+   }
+   .project-6{
+      margin-left: -15px;
+      opacity: 1;
+      transition: 1s;
+      padding: 2em 2em;
+   }
+   .project-7{
+      margin-right: -15px;
+      opacity: 1;
+      transition: 1s;
+      padding: 2em 2em;
+   }
+   .project-8{
+      margin-left: -15px;
+      opacity: 1;
+      transition: 1s;
+      padding: 2em 2em;
+   }
+   .project-9{
+      margin-right: -15px;
+      opacity: 1;
+      transition: 1s;
+      padding: 2em 2em;
+   }
+   .project-10{
+      margin-left: -15px;
+      opacity: 1;
+      transition: 1s;
+      padding: 2em 2em;
+   }
+   .project-9{
+      margin-right: -15px;
+      opacity: 1;
+      transition: 1s;
+      padding: 2em 2em;
+   }
+   .project-10{
+      margin-left: -15px;
+      opacity: 1;
+      transition: 1s;
+      padding: 2em 2em;
+   }
+   .project-11{
+      margin-right: -15px;
+      opacity: 1;
+      transition: 1s;
+      padding: 2em 2em;
+   }
+   .project-12{
+      margin-left: -15px;
+      opacity: 1;
+      transition: 1s;
+      padding: 2em 2em;
+   }
+  
+   .project-13{
+      margin-right: -15px;
+      opacity: 1;
+      transition: 1s;
+      padding: 2em 2em;
+   }
+   .project-14{
+      margin-left: -15px;
+      opacity: 1;
+      transition: 1s;
+      padding: 2em 2em;
+   }
+  
+}

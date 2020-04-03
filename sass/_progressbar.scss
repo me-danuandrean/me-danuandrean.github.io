@@ -1,0 +1,109 @@
+.progress-container{
+   margin-bottom: 20px;
+}
+.progress-badge{
+   text-transform: uppercase;
+}
+.progress{
+   margin-top: 2em;
+}
+ .progress .progress-value{
+   position: absolute;
+   margin-top: -3em;
+   right: 2em;
+   color: #888;
+   font-size: 0.9em;
+}
+.progress-bar{
+   width: 0%;
+}
+
+
+.progress-1 .progress-bar{
+   width: 85%;
+   transition: 1s;
+}
+.progress-2 .progress-bar{
+   width: 80%;
+   transition: 1s;
+}
+.progress-3 .progress-bar{
+   width: 85%;
+   transition: 1s;
+}
+.progress-4 .progress-bar{
+   width: 90%;
+   transition: 1s;
+}
+.progress-5 .progress-bar{
+   width: 80%;
+   transition: 1s;
+}
+.progress-6 .progress-bar{
+   width: 87%;
+   transition: 1s;
+}
+.progress-7 .progress-bar{
+   width: 75%;
+   transition: 1s;
+}
+.progress-8 .progress-bar{
+   width: 70%;
+   transition: 1s;
+}
+.progress-9 .progress-bar{
+   width:85%;
+   transition: 1s;
+}
+.progress-10 .progress-bar{
+   width: 87%;
+   transition: 1s;
+}
+.progress-11 .progress-bar{
+   width: 87%;
+   transition: 1s;
+}
+.progress-12 .progress-bar{
+   width: 90%;
+   transition: 1s;
+}
+.progress-13 .progress-bar{
+   width: 75%;
+   transition: 1s;
+}
+.progress-14 .progress-bar{
+   width: 80%;
+   transition: 1s;
+}
+.progress-15 .progress-bar{
+   width: 80%;
+   transition: 1s;
+}
+.progress-16 .progress-bar{
+   width: 85%;
+   transition: 1s;
+}
+.progress-17 .progress-bar{
+   width: 80%;
+   transition: 1s;
+}
+.progress-18 .progress-bar{
+   width: 70%;
+   transition: 1s;
+}
+.progress-19 .progress-bar{
+   width: 90%;
+   transition: 1s;
+}
+.progress-20 .progress-bar{
+   width: 87%;
+   transition: 1s;
+}
+.progress-21 .progress-bar{
+   width: 80%;
+   transition: 1s;
+}
+.progress-bar:hover{
+   width: 100%;
+   transition: 1s;
+}
