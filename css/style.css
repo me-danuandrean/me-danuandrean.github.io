@@ -725,7 +725,7 @@ button:focus {
   background-image: url("/me-danuandrean.github.io/image/bg.jpg");
   background-size: cover;
   background-position: center;
-  height: 330px;
+  height: 350px;
   color: white;
   opacity: 0.8;
 }
@@ -733,10 +733,14 @@ button:focus {
 .jumbotron img {
   width: 200px;
   border-radius: 50%;
-  margin-top: 0.5em;
   border: 1px solid #666;
 }
 
+@media (max-width: 500px) {
+  .jumbotron img {
+    margin-top: 2em;
+  }
+}
 html {
   scroll-behavior: smooth;
 }
