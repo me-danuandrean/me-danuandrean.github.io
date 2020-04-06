@@ -16,14 +16,14 @@
     height: 100% !important;
     width: 300px !important;
     z-index: 1032;
-    visibility: visible;
-    overflow-y: visible;
     border-top: none;
     text-align: left;
     max-height: none !important;
     padding: 60px 30px;
     right: -301px;
     position: fixed;
+    bottom: 0;
+    overflow-y: auto;
   }
 
   .active .navbar-collapse {
