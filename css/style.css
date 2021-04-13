@@ -777,6 +777,7 @@ h2 {
 .footer {
   width: 100%;
   bottom: 0;
+  height: 160px;
   background-color: white;
   color: #000;
   padding: 20px;
