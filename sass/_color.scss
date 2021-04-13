@@ -1,0 +1,12 @@
+:root{
+  --blue_violet:blueviolet;
+  --blue_violet_hover: #b588df;
+}
+
+.bg-color{
+  background-color: var(--blue_violet);
+}
+.bg_bv_hover{
+  background-color: var(--blue_violet_hover);
+} 
+  

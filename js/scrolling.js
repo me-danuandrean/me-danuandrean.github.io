@@ -19,9 +19,9 @@ $(window).scroll(function(){
     // document.getElementById("progress").style.marginLeft =(800-scroll) +"px";
     
     if(scroll >=300){
-        $("#mynav").addClass("bg-primary");
+        $("#mynav").addClass("bg-color");
     }else{
-        $("#mynav").removeClass("bg-primary");
+        $("#mynav").removeClass("bg-color");
     }
     if(width <= 750){
         if(progress >=-550 ){$("#progress-1").addClass("progress-1");} else{$("#progress-1").removeClass("progress-1")}
