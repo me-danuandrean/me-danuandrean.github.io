@@ -1,21 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Lobster&display=swap');
+
 .jumbotron{
-   background-image:url( "/me-danuandrean.github.io/image/bg.jpg");
-   background-size: cover;
+  //  background-image:url( "/me-danuandrean.github.io/image/bg.jpg");
+    background-color: var(--purple);
+    background-size: cover;
     background-position: center;
-    height: 350px;
-    color:white;
+    height: 40rem;
+    color:rgb(255, 255, 255);
     opacity: 0.8;
 }
 
 .jumbotron img{
-	width: 200px;
+	width: 300px;
 	border-radius: 50%;
-    border:1px solid #666;
+  border:4px solid rgb(255, 255, 255);
+  margin-top: 5em;
    
 }
 @media(max-width:480px){
     .jumbotron img{
-        margin-top: 2em;
+        margin-top: 5em;
     }
 
+}
+.container{
+
+  h1{
+    font-family: 'Lobster', cursive;
+  }
+  p{
+    font-family: 'Josefin Sans', sans-serif;
+  }
+}
+
+.nav-link{
+  font-family: 'Josefin Sans', sans-serif;
+}
+h2{
+  font-family: 'Josefin Sans', sans-serif;
 }

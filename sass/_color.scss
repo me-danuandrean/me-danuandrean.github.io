@@ -1,12 +1,16 @@
 :root{
-  --blue_violet:#9c32ff;
+  --blue_violet:#7952b3;
   --blue_violet_hover: #b588df;
+
 }
 
 .bg-color{
-  background-color: var(--blue_violet);
+  background-color: var(--purple);
 }
 .bg_bv_hover{
   background-color: var(--blue_violet_hover);
 } 
+.red{
+  color: var(--red);
+}
   

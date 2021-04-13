@@ -1,4 +1,6 @@
 @charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Lobster&display=swap");
 @import "https://fonts.googleapis.com/css?family=Merriweather:400,900,900i";
 .collapsing {
   width: 0 !important;
@@ -8,6 +10,15 @@
   color: white;
 }
 
+.nav-link svg {
+  vertical-align: -6px;
+}
+
+@media (min-width: 680px) {
+  .icon {
+    display: none;
+  }
+}
 @media (max-width: 990px) {
   .navbar-collapse {
     background-image: linear-gradient(#aa8eeb, #000c05);
@@ -711,25 +722,41 @@ button:focus {
 }
 
 .jumbotron {
-  background-image: url("/me-danuandrean.github.io/image/bg.jpg");
+  background-color: var(--purple);
   background-size: cover;
   background-position: center;
-  height: 350px;
+  height: 40rem;
   color: white;
   opacity: 0.8;
 }
 
 .jumbotron img {
-  width: 200px;
+  width: 300px;
   border-radius: 50%;
-  border: 1px solid #666;
+  border: 4px solid white;
+  margin-top: 5em;
 }
 
 @media (max-width: 480px) {
   .jumbotron img {
-    margin-top: 2em;
+    margin-top: 5em;
   }
 }
+.container h1 {
+  font-family: "Lobster", cursive;
+}
+.container p {
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.nav-link {
+  font-family: "Josefin Sans", sans-serif;
+}
+
+h2 {
+  font-family: "Josefin Sans", sans-serif;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -812,16 +839,20 @@ h2 {
 
 /* Styles for the content section */
 :root {
-  --blue_violet:#9c32ff;
+  --blue_violet:#7952b3;
   --blue_violet_hover: #b588df;
 }
 
 .bg-color {
-  background-color: var(--blue_violet);
+  background-color: var(--purple);
 }
 
 .bg_bv_hover {
   background-color: var(--blue_violet_hover);
+}
+
+.red {
+  color: var(--red);
 }
 
 /*# sourceMappingURL=style.css.map */

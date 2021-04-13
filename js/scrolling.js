@@ -18,7 +18,7 @@ $(window).scroll(function(){
     // document.getElementById("about").style.marginLeft =(0) +"px";
     // document.getElementById("progress").style.marginLeft =(800-scroll) +"px";
     
-    if(scroll >=300){
+    if(scroll >=600){
         $("#mynav").addClass("bg-color");
     }else{
         $("#mynav").removeClass("bg-color");

@@ -7,6 +7,17 @@
    rgb(255, 255, 255);
 }
 
+.nav-link{
+  svg{
+    vertical-align: -6px;
+  }
+}
+@media(min-width:680px){
+  .icon{
+    display:none ;
+  }
+}
+
 @media(max-width:990px){
   .navbar-collapse {
       // position: fixed;
