@@ -725,7 +725,7 @@ button:focus {
   background-color: var(--purple);
   background-size: cover;
   background-position: center;
-  height: 40rem;
+  height: 100vh;
   color: white;
   opacity: 0.8;
 }
